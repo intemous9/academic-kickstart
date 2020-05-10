@@ -9,27 +9,64 @@ title = "Skills"
 subtitle = ""
 
 # Showcase personal skills or business features.
-# 
+#
 # Add/remove as many `[[feature]]` blocks below as you like.
-# 
+#
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
+
 [[feature]]
-  icon = "r-project"
+  icon = "terminal"
+  icon_pack = "fas"
+  name = "Programming"
+  description = ""
+  skills = ["Rust", "Go", "Dart", "TypeScript", "Python", "Elm"]
+
+
+[[feature]]
+  icon = "database"
+  icon_pack = "fas"
+  name = "DataBase"
+  description = ""
+  skills = ["SQL", "PostgreSQL", "MySQL", "Redis"]
+
+[[feature]]
+  icon = "cloud"
+  icon_pack = "fas"
+  name = "Cloud Services"
+  description = "クラウドサービス使用経験"
+  skills = ["AWS", "GCP", "Auth0", "CircleCI", "Github Actions"]
+
+[[feature]]
+  icon = "docker"
   icon_pack = "fab"
-  name = "R"
-  description = "90%"
-  
+  name = "Others"
+  description = "その他スキル"
+  skills = ["Docker", "Terraform", "Kubernetes", "Git", "Markdown", "Hugo"]
+
+
 [[feature]]
-  icon = "chart-line"
-  icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
-  
+  icon_path = "web_app.svg"
+  icon_pack = "fab"
+  name = "Web Application"
+  description = "PHP / JavaScript / HTML"
+
 [[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  icon_path = "database.svg"
+  icon_pack = "fab"
+  name = "Database"
+  description = "Mysql / PostgreSQL / Redis"
+
+[[feature]]
+  icon_path = "android.svg"
+  icon_pack = "fab"
+  name = "Android"
+  description = "Java / Kotlin"
+
+[[feature]]
+  icon_path = "server.svg"
+  icon_pack = "fab"
+  name = "Server"
+  description = "AWS / CentOS / Apache / nginx"
 
 +++
